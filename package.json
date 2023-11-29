@@ -1,0 +1,14 @@
+{
+  "name": "express-mono",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:backend": "cd backend && pnpm start",
+    "start:frontend": "cd frontend && ng serve",
+    "install:all": "cd backend && pnpm install && cd ../frontend && pnpm install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
